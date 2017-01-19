@@ -1144,7 +1144,10 @@ NSComparisonResult compareViewDepth(UIView *view1, UIView *view2, iCarousel *sel
 
 - (void)queueItemView:(UIView *)view
 {
-    if (view)
+// oasis <
+//    if (view)
+    if (view && view != 444)
+// >
     {
         [_itemViewPool addObject:view];
     }

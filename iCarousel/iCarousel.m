@@ -1146,7 +1146,7 @@ NSComparisonResult compareViewDepth(UIView *view1, UIView *view2, iCarousel *sel
 {
 // oasis <
 //    if (view)
-    if (view && view != 444)
+    if (view && view.tag != 444)
 // >
     {
         [_itemViewPool addObject:view];
